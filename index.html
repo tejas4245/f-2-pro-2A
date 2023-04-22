@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2>Filrer UI cards their profession</h2>
+    <select name="select" id="select">
+        <option id="profesion"value="profesion" disabled selected hidden>profession</option>
+        <option value="admin">Admin</option>
+        <option value="developer">Developer</option>
+    </select>
+
+    <div id="cards"></div>
+    <button onclick="filter_data()"id="Filter">Filter</button>
+    <form action="" id="form">
+        <h2>Add a new user</h2>
+        <label>Enter Name</label>
+        <input type="text" id="name">
+        <label>Enter profession</label>
+        <input type="text" id="profession">
+        <label>Enter Age</label>
+        <input type="number" id="age">
+        <input type="submit" value="Add user" onclick="Add_data()" >
+    </form>
+    
+</body>
+</html>
